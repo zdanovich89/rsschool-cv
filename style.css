@@ -1,3 +1,37 @@
 h1 {
   color: blueviolet;
 }
+
+.content {
+  width: 1024px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.wrapper {
+  background-image: url(./assets/img/Photoshop_jumping_mountains_forest-190.jpg);
+  background-repeat: round;
+  background-size: cover;
+  height: 370px;
+}
+
+h1 {
+  color: #c8ccc8;
+  font-size: 5vh;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 10vh;
+}
+
+h5 {
+  font-size: 5vh;
+  color: #c8ccc8;
+}
