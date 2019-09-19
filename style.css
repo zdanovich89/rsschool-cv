@@ -1,6 +1,6 @@
 .content {
   width: 1024px;
-  padding-top: 100px;
+  padding-top: 25px;
   margin: auto;
 }
 
@@ -10,6 +10,7 @@ header {
   height: 50vh;
   text-align: center;
   line-height: 499%;
+  padding-top: 17vh;
 }
 
 .wrapper {
@@ -32,4 +33,43 @@ h2 {
 h5 {
   font-size: 5vh;
   color: #e3e2de;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.summary {
+width: 40%;
+}
+
+.contacts {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  border: 2px dotted grey;
+  align-items: center;
+  justify-content: center;
+  padding: 66px 0px 44px 0px;
+}
+
+.contacts ul {
+  padding-top: 90px;
+  line-height: 3;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.summary {
+  border: 2px dotted grey;
+  padding: 25px 17px 52px 35px;
+}
+
+.summary div {
+  padding-bottom: 35px;
+ 
 }
