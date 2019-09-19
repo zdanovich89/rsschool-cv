@@ -1,17 +1,15 @@
-h1 {
-  color: blueviolet;
-}
-
 .content {
   width: 1024px;
-  text-align: center;
   padding-top: 100px;
+  margin: auto;
 }
 
 header {
   display: flex;
   flex-direction: column;
   height: 50vh;
+  text-align: center;
+  line-height: 499%;
 }
 
 .wrapper {
@@ -22,16 +20,16 @@ header {
 }
 
 h1 {
-  color: #c8ccc8;
+  color: #e3e2de;
   font-size: 5vh;
 }
 
 h2 {
-  color: whitesmoke;
+  color: white;
   font-size: 10vh;
 }
 
 h5 {
   font-size: 5vh;
-  color: #c8ccc8;
+  color: #e3e2de;
 }
