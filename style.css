@@ -1,16 +1,42 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
 .content {
   width: 1024px;
-  padding-top: 25px;
+  padding-top: 40px;
   margin: auto;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  text-align: justify;  
+  color: rgba(26, 24, 24, 0.76);
 }
 
 header {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 59vh;
   line-height: 499%;
-  padding-top: 17vh;
+  box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.1);
+  
 }
 
 .wrapper {
@@ -42,34 +68,51 @@ main {
 }
 
 .summary {
-width: 40%;
+width: 50%;
+background-color: #ffffff;
 }
 
 .contacts {
   display: flex;
-  width: 30%;
+  width: 35%;
+  height: 79vh;
   flex-direction: column;
-  border: 2px dotted grey;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 66px 0px 44px 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 6px 5px rgba(0,0,0,0.1);
 }
 
 .contacts ul {
-  padding-top: 90px;
+  padding-top: 9px;
   line-height: 3;
 }
 
 .photo {
   border-radius: 50%;
+  box-shadow: 0px 5px 6px 5px rgba(0,0,0,0.1);
 }
 
 .summary {
-  border: 2px dotted grey;
   padding: 25px 17px 52px 35px;
+  box-shadow: 0px 5px 6px 5px rgba(0,0,0,0.1);
+  height: 118vh;
 }
 
 .summary div {
-  padding-bottom: 35px;
- 
+  padding: 25px 25px 15px 0px;
+ }
+
+ html {
+  background-image: url(./assets/img/background.png);
+   }
+
+h4 {
+  font-weight: bold;
+  padding-bottom: 1vh;
+}
+
+.contacts h4 {
+  padding: 6vh 0vh 3vh 0vh;
 }
